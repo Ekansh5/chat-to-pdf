@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { BrainCogIcon, EyeIcon, GlobeIcon, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
+import image from "@/public/test.png";
 const features = [
   {
     name: "Store your PDF Documents",
@@ -61,7 +61,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <Image
               alt="App screenshot"
-              src="https://i.imgur.com/VciRSTI.jpeg"
+              src={image}
               width={2432}
               height={1442}
               className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10 shadow-blue-200"
